@@ -2,9 +2,12 @@
   uses: twilio-labs/actions-sms@v1
   with:
     fromPhoneNumber: '+1(234)5678901'
-    toPhoneNumber: '+1(234)3334444'
+    toPhoneNumber: '+6593391070'
     message: 'Hello from SGUS'
   env:
     TWILIO_ACCOUNT_SID: ${{ secrets.TWILIO_ACCOUNT_SID }}
     TWILIO_API_KEY: ${{ secrets.TWILIO_API_KEY }}
     TWILIO_API_SECRET: ${{ secrets.TWILIO_API_SECRET }}
+    
+
+
